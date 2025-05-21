@@ -32,7 +32,7 @@ body {
     background-repeat: no-repeat;
     cursor: pointer;
     position: relative;
-    transition: 0.1s ease;
+    transition: 0.3s ease;
 }
 
 .slide h3 {
@@ -41,7 +41,6 @@ body {
     bottom: 20px;
     left: 10px;
     opacity: 0;
-    transition: 0.1s ease;
 }
 
 .slide.active {
@@ -50,5 +49,5 @@ body {
 
 .slide.active h3{
     opacity: 1;
-    transition: opacity 0.1s ease;
+    transition: opacity 0.2s ease-in;
 }
